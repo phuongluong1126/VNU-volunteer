@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/responsive.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
       rel="stylesheet"
@@ -22,30 +23,52 @@
       <div id="header">
         <!-- Begin Nav -->
         <ul id="nav">
-          <li><a href="">Trang chủ</a></li>
           <li>
-            <a href=""
-              >Đơn vị
+            <a href="#">
+              <img src="./assets/images/logos/Logo_VNU.png" alt="logo" />
+            </a>
+          </li>
+          <li><a href="#">Trang chủ</a></li>
+          <li>
+            <a href="#content"
+              >Hoạt động
               <i class="fas fa-angle-down"></i>
             </a>
             <ul class="sub-nav">
-              <li>Đại học Quốc tế</li>
-              <li>Đại học Bách khoa</li>
-              <li>Đại học Kinh tế - Luật</li>
-              <li>Đại học Khoa học Tự nhiên</li>
-              <li>Đại học Công nghệ Thông tin</li>
-              <li>Đại học Khoa học Xã hội và Nhân văn</li>
+              <li>
+                <a href="#content"> Đại học Quốc tế</a>
+              </li>
+              <li>
+                <a href="#content"> Đại học Bách khoa</a>
+              </li>
+              <li>
+                <a href="#content"> Đại học Kinh tế - Luật</a>
+              </li>
+              <li>
+                <a href="#content">Đại học Khoa học Tự nhiên</a>
+              </li>
+              <li>
+                <a href="#content"> Đại học Công nghệ Thông tin</a>
+              </li>
+              <li>
+                <a href="#content"> Đại học Khoa học Xã hội và Nhân văn</a>
+              </li>
             </ul>
           </li>
-          <li><a href="">Hoạt động</a></li>
-          <li><a href="">Sản phẩm</a></li>
-          <li><a href="">Đăng nhập</a></li>
+          <li><a href="#product-section">Sản phẩm</a></li>
+          <li>
+            <a href="#footer">Đơn vị </a>
+          </li>
+          <li><a href="#">Đăng nhập</a></li>
         </ul>
         <!-- End Nav -->
 
         <!-- Begin Search Button -->
         <div class="search-btn">
           <i class="fas fa-search"></i>
+        </div>
+        <div id="mobile-btn">
+          <i class="fas fa-bars"></i>
         </div>
         <!-- Begin Search Button -->
       </div>
@@ -164,9 +187,7 @@
               <i class="far fa-heart"></i>
             </div>
             <div class="acti-content">
-              <div class="acti-name">
-                Chương trình Tình nguyện Ánh bình minh
-              </div>
+              <div class="acti-name">Chương trình Ánh bình minh</div>
               <div class="acti-time">
                 <span>Thời gian: </span>22 - 25/04/2021
               </div>
@@ -185,7 +206,9 @@
 
         <!-- Start Product -->
 
-        <div class="banner"></div>
+        <div id="product-section"></div>
+
+        <div id="banner"></div>
         <div class="product-cate">
           <div class="cate-item cate-active">Thức uống</div>
           <div class="cate-item">Thức ăn</div>
@@ -305,9 +328,7 @@
           </div>
           <div class="end-section">
             <div class="info col1">
-              <div class="footer-heading">
-                Các đơn vị thành viên
-              </div>
+              <div class="footer-heading">Đại học Quốc gia TP.HCM</div>
               <div class="info-item">
                 <i class="fas fa-map-marker-alt"></i>
                 <p>Linh Trung, Tp.Thủ Đức, Tp.Hồ Chí Minh</p>
@@ -327,46 +348,101 @@
                 <i class="fab fa-facebook-f"></i>
                 <a href="#">Facebook</a>
               </div>
-              <div class="info-item">
-Phát triển bởi L.K.P
-              </div>
+              <div class="info-item">Phát triển bởi L.K.P</div>
             </div>
             <div class="member-name col1">
-              <div class="footer-heading">
-                Các đơn vị thành viên
-              </div>
+              <div class="footer-heading">Các đơn vị thành viên</div>
               <a href="" class="name-item">Trường Đại học Bách Khoa</a>
               <a href="" class="name-item">Trường Đại học Khoa học Tự nhiên</a>
               <a href="" class="name-item">Trường Đại học KHXH và Nhân văn</a>
               <a href="" class="name-item">Trường Đại học Quốc tế</a>
-              <a href="" class="name-item">Trường Đại học Công nghệ Thông tin</a>
+              <a href="" class="name-item"
+                >Trường Đại học Công nghệ Thông tin</a
+              >
               <a href="" class="name-item">Trường Đại học Kinh tế - Luật</a>
               <a href="" class="name-item">Các đơn vị khác</a>
+            </div>
+
+            <div class="member-name col1">
+              <div class="footer-heading">Danh mục</div>
+              <a href="" class="name-item">Tin tức</a>
+              <a href="" class="name-item">Sự kiện</a>
+              <a href="" class="name-item">Nghiên cứu</a>
+              <a href="" class="name-item">Đào tạo</a>
             </div>
           </div>
           <div class="full-logo">
             <div class="logo-item">
-              <img src="./assets/images/logos/BK.png" alt="" class="logo-item">
+              <img
+                src="./assets/images/logos/BK.png"
+                alt=""
+                class="logo-item"
+              />
             </div>
             <div class="logo-item">
-              <img src="./assets/images/logos/KHTN.png" alt="" class="logo-item">
+              <img
+                src="./assets/images/logos/KHTN.png"
+                alt=""
+                class="logo-item"
+              />
             </div>
             <div class="logo-item">
-              <img src="./assets/images/logos/USSH.png" alt="" class="logo-item">
+              <img
+                src="./assets/images/logos/USSH.png"
+                alt=""
+                class="logo-item"
+              />
             </div>
             <div class="logo-item">
-              <img src="./assets/images/logos/IU.png" alt="" class="logo-item">
+              <img
+                src="./assets/images/logos/IU.png"
+                alt=""
+                class="logo-item"
+              />
             </div>
             <div class="logo-item">
-              <img src="./assets/images/logos/UIT.png" alt="" class="logo-item"> 
+              <img
+                src="./assets/images/logos/UIT.png"
+                alt=""
+                class="logo-item"
+              />
             </div>
             <div class="logo-item">
-              <img src="./assets/images/logos/UEL.png" alt="" class="logo-item">
-  
+              <img
+                src="./assets/images/logos/UEL.png"
+                alt=""
+                class="logo-item"
+              />
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script>
+      var header = document.getElementById("header");
+      var mobileButton = document.getElementById("mobile-btn");
+      var headerHeight = header.clientHeight;
+      mobileButton.onclick = function () {
+        var isClosed = header.clientHeight === headerHeight;
+        if (isClosed) {
+          header.style.height = "auto";
+        } else {
+          header.style.height = null;
+        }
+      };
+      var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+      for (var i = 0; i < menuItems.length; i++) {
+        menuItems[i].onclick = function (event) {
+          var isParentMenu =
+            this.nextElementSibling &&
+            this.nextElementSibling.classList.contains("sub-nav");
+          if (isParentMenu) {
+            event.preventDefault();
+          } else {
+            header.style.height = null;
+          }
+        };
+      }
+    </script>
   </body>
 </html>
