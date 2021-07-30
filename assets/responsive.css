@@ -69,7 +69,7 @@
     background-color: white;
     box-shadow: none;
   }
-  #nav .sub-nav li:hover {
+  #nav .sub-nav a:hover {
     color: var(--light-black);
   }
   #nav li a:hover {

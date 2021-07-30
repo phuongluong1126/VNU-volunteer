@@ -71,7 +71,7 @@ html {
   top: 60px;
   background-color: rgba(230, 230, 230, 0.692);
   color: var(--light-black);
-  min-width: 20rem;
+  min-width: 26rem;
   box-shadow: 0 0 10px #ccc;
 }
 #nav .sub-nav li {
