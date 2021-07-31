@@ -418,31 +418,6 @@
         </div>
       </div>
     </div>
-    <script>
-      var header = document.getElementById("header");
-      var mobileButton = document.getElementById("mobile-btn");
-      var headerHeight = header.clientHeight;
-      mobileButton.onclick = function () {
-        var isClosed = header.clientHeight === headerHeight;
-        if (isClosed) {
-          header.style.height = "auto";
-        } else {
-          header.style.height = null;
-        }
-      };
-      var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
-      for (var i = 0; i < menuItems.length; i++) {
-        menuItems[i].onclick = function (event) {
-          var isParentMenu =
-            this.nextElementSibling &&
-            this.nextElementSibling.classList.contains("sub-nav");
-          if (isParentMenu) {
-            event.preventDefault();
-          } else {
-            header.style.height = null;
-          }
-        };
-      }
-    </script>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
